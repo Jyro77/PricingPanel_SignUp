@@ -1,7 +1,6 @@
 body{
     display: flex;
     background-color: #151b29;
-    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -41,4 +40,10 @@ body{
 .pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
     background-color: #269aff;
     color: #ffffff;
+}
+
+@media only screen and (min-width: 994px) {
+    body{
+        height: 100vh;
+    }
 }
